@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+Form in html
+forms are used to collect data from the user
+eg. sign up/ login/ help requests/ contact me
+
+<form> form content </from>
+-->
+<h3>Registration From</h3>
+    <form action ="/action.php">
+    
+<!--
+    form element : Input
+    <input type = "taxt" placeholder = "Enter Name">
+-->
+<input type = "text" placeholder = "username">
+<br/><br/>
+<input type = "password" placeholder = "password">
+<br/><br/>
+<!--
+Label
+<label for = "id1">
+    <input type = "radio" value = "class X" name = "class" id = "id1">
+</label>
+
+<label for = "id2">
+    <input type = "radio" value = "class X" name = "class" id = "id2">
+</label>
+-->
+<h4>Select your class</h4>
+<input type = "radio" value = "class X" name = "class">class X
+<br>
+<input type = "radio" value = "class XI" name = "class">class XI
+<br>
+<input type = "radio" value = "class XII" name = "class">class XII
+<br/>
+
+<hr>
+<h4>Select your class</h4>
+<label for = "101">
+    <input type = "radio" value = "class X" name = "class" id = "101">class X
+</label>
+<br/>
+<label for = "102">
+    <input type = "radio" value = "class XI" name = "class" id = "102">class XI
+</label>
+
+<!-- Class & ID
+<div id = "id1" class = "group1">
+</div>
+
+<div id = "id2"> class = "group1">
+</div>
+<br/> -->
+
+<!--  Checkbox  -->
+<h4>Select your subject</h4>
+<label for = "math">
+    <input type = "checkbox" value = "math" name = "subject" id = "101">math
+</label>
+<br/>
+<label for = "phy">
+    <input type = "checkbox" value = "phy" name = "subject" id = "102">phy
+</label>
+<br/>
+<label for = "chem">
+    <input type = "checkbox" value = "chem" name = "subject" id = "103">chem
+</label>
+<br/><br/>
+Select your City
+<!-- Select -->
+<select name = "city">
+<option value = "Delhi">Delhi</option>
+<option value ="Mumbai">Mumbai</option>
+<option value ="Banglore">Banglore</option>
+<option value ="Kolkata">Kolkata</option>
+<option value ="Pune">Pune</option>
+<option value ="Jaipur">Jaipur</option>
+</select>
+
+<br/> <br/>
+<textarea name = "feedback" id = "106" placeholder="please give your valuable feedback here" rows = "5">Feedback</textarea>
+<br/>
+<input type ="submit" value ="submit">
+
+</form>
+<br/><br/>
+<!-- iframe Tag 
+it is used for website inside website 
+<iframe src = "link">
+-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/><br/>
+<iframe width="560" height="315" src = "http://www.youtube.com"></iframe>
+<br/><br/>
+<iframe width="560" height="315" src = "http://en.wikipedia.org/wiki/India"></iframe>
+<br/> <br/>
+<hr>
+<br/><br/>
+<!--
+Video Tag 
+<video src = "myVid.mp4"> My Video </video>
+Attributes :- 
+- controls
+- height
+- width
+- loop
+- autoplay
+-->
+<video width="960" height="560" src = "./My Video/VID_20220828151252.mp4" controls >My Video</video>
+
+</body>
+</html>
